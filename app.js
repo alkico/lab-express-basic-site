@@ -3,7 +3,6 @@ const app = express();
 
 app.use(express.static("public"));
 
-//call a listen method, add a port, add a callback(optional to see if server is runing e.g. as in console.log)
 app.listen(3000, function () {
   console.log("Example app listening on port 3000test node!");
 });
